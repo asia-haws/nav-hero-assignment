@@ -1,0 +1,69 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: radial-gradient(#f02390, #093101);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0, 174, 255);
+  padding: 0.5rem 1rem;
+}
+
+nav img {
+  width: 120px;
+  height: auto;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 1rem;
+  padding: 10px 16px;
+  color: white;
+  font-size: 20px;
+  background-color: #f02390;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: rgb(243, 116, 135);
+}
+
+.page-title {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 34px;
+  margin-top: 2rem;
+}
+
+.page-container {
+  padding: 48px;
+  margin: 48px;
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url("https://www.moira.vic.gov.au/files/content/public/v/19/residents/pets-and-animals/pet-adoption-and-foster-care/cats-and-dogs.jpg?w=1200");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  border-radius: 8px;
+  color: white;
+}
+
+button {
+  width: 200px;
+  height: 60px;
+  border-radius: 8px;
+  font-size: 20px;
+  border: rgb(46, 145, 181) solid 4px;
+  font-weight: bold;
+  background-color: rgb(60, 192, 240);
+  color: white;
+  cursor: pointer;
+}
